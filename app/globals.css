@@ -16,12 +16,18 @@
   }
 }
 
+@layer components {
+  .link {
+     @apply hover:underline cursor-pointer
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+ /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb));*/
 }
